@@ -7,8 +7,8 @@ from .tasks import simple_task
 
 def page(request):
 
-	send_emails()
-	# simple_task.delay()
+# 	send_emails()
+	simple_task.delay()
 	now = datetime.datetime.now()
 	html = "<html><body>It is now %s.</body></html>" % now
 	return HttpResponse(html)
