@@ -26,7 +26,7 @@
 - Start Celery: 
 ```celery -A drchrono worker -l info```
 
-- Go to http://127.0.0.1:8000/, click the link, it will redirect to http://127.0.0.1:8000/accounts/profile/, you can see in celery window that the app is sending email periodically
+- Go to http://127.0.0.1:8000/, click the link on the page, it will redirect to http://127.0.0.1:8000/accounts/profile/, you can see in celery window that the app is sending email periodically
 
 
 
