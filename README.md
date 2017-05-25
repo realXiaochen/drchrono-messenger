@@ -14,4 +14,14 @@ $ pip install -r requirements.txt
 
 ### How to Start
 
+- Go to your virtualenv/src
+
+- Start Redis: redis-server
+
+- Start Server: python manage.py runserver
+
+- Start Celery: celery -A drchrono worker -l info
+
+Because of rate limit, patient filtering logic are not correct, and the programm doesn't really send email to drchrono customoers. 
+
 
