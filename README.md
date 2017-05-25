@@ -1,4 +1,4 @@
-# drchrono Hackathon
+# drchrono Hackathon (messenger)
 
 
 ### Setup
