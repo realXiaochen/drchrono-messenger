@@ -1,11 +1,10 @@
 # drchrono Hackathon
 
-### Requirements
-- [pip](https://pip.pypa.io/en/stable/)
-- [python virtual env](https://packaging.python.org/installing/#creating-and-using-virtual-environments)
 
 ### Setup
-$ pip install -r requirements.txt
+  - Setup a virtualenv
+  - Go to virutalenv, downlaod this project
+  - Install dependencies
 
 ### Key Components
 - messenger app: query the api and send email
