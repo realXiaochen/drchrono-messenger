@@ -26,6 +26,10 @@
 - Start Celery: 
 ```celery -A drchrono worker -l info```
 
+- Go to http://127.0.0.1:8000/, click the link, it will redirect to http://127.0.0.1:8000/accounts/profile/, you can see in celery window that the app is sending email periodically
+
+
+
 Because of rate limit, patient filtering logic are not correct, and the programm doesn't really send email to drchrono customoers. 
 
 
