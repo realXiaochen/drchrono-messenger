@@ -15,6 +15,8 @@
 
 - Go to your virtualenv/src
 
+- Do migrations
+
 - Start Redis: 
 ```redis-server```
 
